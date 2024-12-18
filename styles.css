@@ -32,13 +32,23 @@ body {
 
 .preview-card-text {
   margin-top: 16px;
-  margin-left: 12px;
+  margin-left: 20px;
 }
 
 .category {
   background-color: hsl(47, 88%, 63%);
   border-radius: 4px;
-  width: 80px;
+  padding: 4px 6px;
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 1;
+  text-align: center;
+}
+
+.category h4 {
+  font-size: 12px;
+  font-weight: 800;
+  margin: 0;
 }
 
 .date {
